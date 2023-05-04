@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 using MySqlConnector;
 
 
-namespace CPS_App.Models;
+namespace CommonDBUtils;
 
 public class Db : DBConnection
 {

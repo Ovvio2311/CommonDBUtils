@@ -2,7 +2,7 @@
 using System.Data.Common;
 using MySqlConnector;
 
-namespace CPS_App.Models
+namespace CommonDBUtils
 {
 
     public class DBConnection : IDisposable
@@ -472,5 +472,5 @@ namespace CPS_App.Models
         }
     }
 
-    
+
 }
