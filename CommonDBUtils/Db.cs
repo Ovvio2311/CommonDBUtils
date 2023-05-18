@@ -77,7 +77,7 @@ public class Db : DBConnection
         }
     }
 
-    public async Task<long> QueryAsync<TModel>(string sql, TModel model, bool isStoredProcedure = false)
+    public async Task<long> ExecuteAsync<TModel>(string sql, TModel model, bool isStoredProcedure = false)
     {
         using IDbConnection connection = getConnection(_configuration["MySQL:ConnectionString"]);
         _ = 1;
